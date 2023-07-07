@@ -1,0 +1,244 @@
+/*--------------------------------------------------------------New Styles-------------------------------------------
+*/
+body {
+    background: #000;
+    display: flex;
+    align-items: center;
+}
+
+div#root {
+  max-width: 1200px;
+  min-width: 600px;
+  background: linear-gradient(45deg, #333, transparent);
+  padding: 10px 50px 50px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid grey;
+  box-shadow: 1px 1px 10px grey;
+}
+div#root h1,
+div#root h2{
+  font-size: 32px;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+h1:after,
+h2:after  {
+  content: "";
+  width: 60px;
+  height: 4px;
+  display: block;
+  background: linear-gradient(45deg, #1399fc, #76b83f);
+  margin: 0 auto;
+  margin: 10px auto 30px;
+}
+.mainbutton {
+  max-width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+div#root button{
+  padding: 10px 30px;
+  min-width: 100px;
+  margin: 0px 10px;
+  border-radius: 0px;
+  background: #000;
+  color: #fff;
+  border: 1px solid grey;
+  box-shadow: 1px 1px 3px grey;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form div{
+  display: grid;
+  grid-template-columns: 1.5fr 4fr;
+  grid-gap: 10px;
+  color: #fff;
+  margin-bottom:15px ;
+}
+div#root form button{
+  display: block!important;
+
+  margin: 0 auto;
+  margin-top: 30px!important;
+}
+input {
+  background: transparent;
+  color: #f8f8f8;
+  border: none;
+  box-shadow: 0px 1px 3px grey;
+  border-radius: 0px;
+  min-height: 40px;
+}
+label{
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+li.formdata{
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  border: 1px solid #efefef26;
+  padding: 10px 10px 10px 20px;
+}
+
+.formdata span{
+  display: flex;
+  align-items: center;
+}
+
+tr {
+  width: 100%!important;
+  display: flex;
+  flex-direction: row;
+  flex: 0 0 auto;
+  flex-basis: auto;
+
+}
+.tablestyle tr{
+  width: 100%!important;
+  display: flex;
+  flex-direction: row;
+  flex: 0 0 auto;
+  flex-basis: auto;
+
+}
+
+tr th,
+tr td{
+  padding: 10px 15px;
+  text-align: left!important;
+  border: 1px solid #efefef26;
+  font-weight: 300;
+  text-transform: capitalize;
+  flex: 1 1 0;
+}
+tr th{
+  text-transform: capitalize;
+  font-weight: 700!important;
+}
+
+.paginate {
+  display: flex;
+  align-items: center;
+  margin: 20px auto 0px;
+  justify-content: center;
+}
+.paginate span{
+  margin-left: 20px;
+}
+div#root .paginate button {
+  max-width: 30px!important;
+  min-width: 30px!important;
+  min-height: 30px;
+  padding: 0px;
+  border-radius: 30px;
+}
+/*--------------------------------------------------------------New Styles End-------------------------------------------
+
+
+
+
+
+
+
+
+/*
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+ /* Set background gradient color  */
+ /*
+body {
+  background: linear-gradient(to bottom, #0F4C75, #3282B8);
+}
+
+/* //---------------------------------------------Style the table------------------------------------------  */
+
+
+/* //Set page background gradient color / /
+body {
+  background: linear-gradient(to bottom, #000428, #004e92);
+}
+
+/* // Style the table  /
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 2px solid #FFFFFF;
+  color: #ffffff;
+}
+
+th {
+  background-color: #000000;
+  font-weight: bold;
+  text-transform: uppercase; 
+}
+
+td {
+  background-color: #000000;
+  text-transform: capitalize; 
+}
+
+/* // Add border to table  /
+table {
+  border: 1px solid #FFFFFF;
+}
+
+/* //Add hover effect to table rows  /
+tbody tr:hover {
+  background-color: #2568a9;
+}
+
+
+/* 
+----------------------------------------------Style the table------------------------------------------- */
