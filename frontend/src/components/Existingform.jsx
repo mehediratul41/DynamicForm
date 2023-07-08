@@ -40,10 +40,10 @@ export const Existing = () => {
         {formData.map((item, index) => (
           <li className="formdata" key={index}>
            <span> {item.form_name}</span>
-              <Link to={`/existing/view2/${item.form_name}`}>
+              <Link to={`/existing/view/${item.form_name}`}>
                 <button>View</button>
              </Link>
-             <Link to={`/existing/entry2/${item.form_name}`}>
+             <Link to={`/existing/entry/${item.form_name}`}>
                  <button>Entry</button>
             </Link>
           </li>
